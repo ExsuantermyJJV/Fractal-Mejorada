@@ -41,13 +41,16 @@ let countDown = new Date('mar 11, 2023 16:38:00').getTime(),
         document.getElementById('minutos').innerText = Math.floor((distance % (hour)) / (minute)),
         document.getElementById('segundos').innerText = Math.floor((distance % (minute)) / second);
 
-        document.getElementById('dias').innerText = (0),
-    document.getElementById('horas').innerText = (0),
-    document.getElementById('minutos').innerText = (0),
-    document.getElementById('segundos').innerText = (0);
-        
-        
     }, second)
 
+    document.getElementById('dias').innerText = (5),
+    document.getElementById('horas').innerText = (12),
+    document.getElementById('minutos').innerText = (0),
+    document.getElementById('segundos').innerText = (0);
+
+      document.getElementById('diass').innerText = (5),
+    document.getElementById('horass').innerText = (12),
+    document.getElementById('minutoss').innerText = (0),
+    document.getElementById('segundoss').innerText = (0);
 
 
