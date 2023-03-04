@@ -31,7 +31,7 @@ mainDiv.addEventListener('click', function(){
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('feb 17, 2023 16:38:00').getTime(),
+let countDown = new Date('mar 23, 2023 16:38:00').getTime(),
     x = setInterval(function() {
 
       let now = new Date().getTime(),
